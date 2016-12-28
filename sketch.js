@@ -27,7 +27,7 @@ function changeColor() {
 
 function draw() {
   background(bgcolor);
-  fill(0, 255, 0);
+  fill(0, 0, 255);
   rect(x, y, slider.value(), slider.value());
   h1.position(x, y);
   x += random(-3, 3);
