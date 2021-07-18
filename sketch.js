@@ -24,8 +24,7 @@ function changeColor() {
   bgcolor = color(random(0, 100));
   h1.html("Random Numbers");
   r = random(0, 100);
-  r.toFixed(0);
-  n1 = createP("Rolled: " + r);
+  n1 = createP("Rolled: " + r.toFixed(0));
   n1.style('font-size', '26px');
 }
 
