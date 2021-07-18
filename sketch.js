@@ -26,6 +26,7 @@ function changeColor() {
   r = random(0, 100);
   r.toFixed(0);
   n1 = createP("Rolled: " + r);
+  n1.style('font-size', '26px');
 }
 
 function draw() {
