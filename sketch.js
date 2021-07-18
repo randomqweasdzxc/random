@@ -6,6 +6,7 @@ var bgcolor;
 var button;
 var slider;
 var input;
+var r;
 
 function setup() {
   canvas = createCanvas(200, 200);
@@ -21,8 +22,9 @@ function setup() {
 }
 function changeColor() {
   bgcolor = color(random(0, 100));
-  h1.html("Random Numbers")
-  n1 = createP("Random Numbers: " + random(0, 100));
+  h1.html("Random Numbers");
+  r = random(0, 100);
+  n1 = createP("Rolled: " + r);
 }
 
 function draw() {
